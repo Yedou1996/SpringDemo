@@ -5,6 +5,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+/**
+ * 测试提交是否有用
+ */
 @Controller
 public class HelloController {
     @GetMapping("/hello")
